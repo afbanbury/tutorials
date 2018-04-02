@@ -24,7 +24,7 @@ namespace ContosoUniversity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SchoolContext>(options =>
-                options.UseSqlite("Data Source=ContosoUniversity.db"));
+                options.UseSqlite("Data Source=ContosoUniversity2.db"));
             
             services.AddMvc();
         }
